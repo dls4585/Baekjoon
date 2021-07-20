@@ -88,5 +88,8 @@ class Candidate implements Comparable<Candidate>{
             else return -1;
         }
         return 0;
+        // -1 ㅂㅏ꾸지 않음
+        // 0 같으니까 바꾸지 않음
+        // 1 바
     }
 }
