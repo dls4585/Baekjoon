@@ -67,7 +67,7 @@ public class boj_16234 {
 
         int allies = 0;
 
-        // map의 모든 칸을 돌면서 연합을 만들어준다.
+        // map의 모든 칸을 돌면서 연합을 만들어준다. 더 효율적으로 가능할 거 같습니다.
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
                 if (visited[i][j]) continue;
@@ -119,8 +119,8 @@ class Country {
     }
 }
 class Ally {
-    int countries;
-    int totalPopularity;
+    int countries; // 연합에 속한 나라의 개수
+    int totalPopularity; // 전체 인구 수
 
     public Ally(int countries, int totalPopularity) {
         this.countries = countries;
