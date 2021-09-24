@@ -1,8 +1,5 @@
 package KAKAO.G;
 
-import java.io.*;
-import java.util.*;
-
 class Solution {
     static int N, M, max = -1;
     // 상 하 좌 우

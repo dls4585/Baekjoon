@@ -1,8 +1,5 @@
 package KAKAO.B;
 
-import java.io.*;
-import java.util.*;
-
 class Solution {
     public int solution(int n, int k) {
         StringBuilder sb = new StringBuilder();

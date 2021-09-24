@@ -1,8 +1,5 @@
 package KAKAO.E;
 
-import java.io.*;
-import java.util.*;
-
 class Solution {
     public int solution(int[] info, int[][] edges) {
         int answer = 0;

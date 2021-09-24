@@ -1,7 +1,5 @@
 package KAKAO.F;
 
-import java.util.Arrays;
-
 class Solution {
     public int solution(int[][] board, int[][] skill) {
         int answer = 0;
